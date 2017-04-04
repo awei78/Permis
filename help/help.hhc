@@ -1,0 +1,178 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<meta name="GENERATOR" content="Microsoft&reg; HTML Help Workshop 4.1">
+<!-- Sitemap 1.0 -->
+</HEAD><BODY>
+<OBJECT type="text/site properties">
+	<param name="ImageType" value="Folder">
+</OBJECT>
+<UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="欢迎使用">
+		<param name="Local" value="welcome.html">
+		<param name="ImageNumber" value="17">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="系统登录">
+		<param name="Local" value="login.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="管理员">
+		<param name="Local" value="admin.html">
+		<param name="ImageNumber" value="27">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="基本数据">
+		<param name="Local" value="basic.html">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="部门设置">
+			<param name="Local" value="dept.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="分类信息">
+			<param name="Local" value="dict.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="公司信息">
+			<param name="Local" value="company.html">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="档案管理">
+		<param name="Local" value="peroper.html">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="添加、复制添加">
+			<param name="Local" value="add.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="编辑、查看">
+			<param name="Local" value="edit.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="删除">
+			<param name="Local" value="del.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="查询">
+			<param name="Local" value="inqu.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="批量修改">
+			<param name="Local" value="batchedit.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="图表分析">
+			<param name="Local" value="chart.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="字段显示">
+			<param name="Local" value="field.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="打印">
+			<param name="Local" value="print.html">
+			<param name="ImageNumber" value="11">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="人事变动">
+		<param name="Local" value="moveoper.html">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="请假、销假">
+			<param name="Local" value="leave.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="调动">
+			<param name="Local" value="move.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="离职">
+			<param name="Local" value="left.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="复职">
+			<param name="Local" value="back.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="变动查询">
+			<param name="Local" value="inqum.html">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="合同管理">
+		<param name="Local" value="contract.html">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="合同添加、编辑">
+			<param name="Local" value="cont_add.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="合同信息">
+			<param name="Local" value="cont_info.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="从Excel导入">
+			<param name="Local" value="cont_import.html">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="数据维护">
+		<param name="Local" value="dataoper.html">
+		<param name="ImageNumber" value="6">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="备份">
+			<param name="Local" value="databack.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="恢复">
+			<param name="Local" value="datarestore.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="压缩修复">
+			<param name="Local" value="datacompress.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="导出Excel文档">
+			<param name="Local" value="export.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="导入Excel文档">
+			<param name="Local" value="import.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="导入员工照片">
+			<param name="Local" value="import_p.html">
+			<param name="ImageNumber" value="11">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="初始化">
+			<param name="Local" value="datainit.html">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="参数设置">
+		<param name="Local" value="paramset.html">
+		<param name="ImageNumber" value="41">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="事件提醒">
+		<param name="Local" value="awake.html">
+		<param name="ImageNumber" value="29">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="常见问题解答">
+		<param name="Local" value="faq.html">
+		<param name="ImageNumber" value="9">
+		</OBJECT>
+</UL>
+</BODY></HTML>

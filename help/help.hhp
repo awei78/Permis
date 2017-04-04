@@ -1,0 +1,43 @@
+[OPTIONS]
+Compatibility=1.1 or later
+Compiled file=help.chm
+Contents file=help.hhc
+Default topic=welcome.html
+Display compile progress=No
+Index file=help.hhk
+Language=0x804 中文(中国)
+
+
+[FILES]
+welcome.html
+add.html
+admin.html
+awake.html
+back.html
+basic.html
+chart.html
+company.html
+databack.html
+datacompress.html
+datainit.html
+dataoper.html
+datarestore.html
+del.html
+dept.html
+dict.html
+edit.html
+export.html
+faq.html
+field.html
+import.html
+inqu.html
+inqum.html
+left.html
+login.html
+move.html
+moveoper.html
+peroper.html
+print.html
+
+[INFOTYPES]
+
