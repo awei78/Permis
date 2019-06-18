@@ -1195,7 +1195,7 @@ end;
 
 procedure TfrmMain.actExitExecute(Sender: TObject);
 begin
-  if MessageBox(Handle, '您要退出秋风人事档案管理系统么？', '提示',  MB_ICONQUESTION + MB_YESNO) = IDYES then Close();
+  if MessageBox(Handle, '您要退出CR人事档案管理系统么？', '提示',  MB_ICONQUESTION + MB_YESNO) = IDYES then Close();
 end;
 
 procedure TfrmMain.actAdminExecute(Sender: TObject);
@@ -1587,7 +1587,7 @@ end;
 
 procedure TfrmMain.actQQExecute(Sender: TObject);
 begin
-  ShellExecute(Handle, 'open', 'tencent://message/?uin=7515933&Site=www.awindsoft.net&Menu=yes', nil, nil, SW_SHOW);
+  ShellExecute(Handle, 'open', 'tencent://message/?uin=7515933&Site=www.cr-soft.net&Menu=yes', nil, nil, SW_SHOW);
 end;
 
 procedure TfrmMain.actLogExecute(Sender: TObject);

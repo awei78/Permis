@@ -10,9 +10,12 @@ inherited frmImportP: TfrmImportP
   inherited bvl: TBevel
     Top = 368
     Width = 564
+    ExplicitTop = 368
+    ExplicitWidth = 564
   end
   inherited imgHelp: TImage
     Top = 378
+    ExplicitTop = 378
   end
   object Label3: TLabel [2]
     Left = 62
@@ -409,12 +412,16 @@ inherited frmImportP: TfrmImportP
       D9CCBFFDFDFDF9F9F9F9F9F9F8F7F6F9DEB38C7157FF00FFFF00FFFF00FFFF00
       FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFA08A768E7D70B4A398A3968E96
       8C80FF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FFFF00FF}
+    ExplicitLeft = 396
+    ExplicitTop = 376
   end
   inherited btnCancel: TBitBtn
     Left = 477
     Top = 376
     Caption = #21462#28040
     TabOrder = 4
+    ExplicitLeft = 477
+    ExplicitTop = 376
   end
   object gbPath: TGroupBox
     Left = 12
@@ -432,6 +439,8 @@ inherited frmImportP: TfrmImportP
       OnEnter = bePathEnter
       OnExit = bePathExit
       OnKeyDown = bePathKeyDown
+      AltBtnWidth = 15
+      ButtonWidth = 15
       OnButtonClick = bePathButtonClick
     end
   end

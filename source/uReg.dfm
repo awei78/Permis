@@ -11,9 +11,12 @@ inherited frmReg: TfrmReg
   inherited bvl: TBevel
     Top = 100
     Width = 292
+    ExplicitTop = 100
+    ExplicitWidth = 292
   end
   inherited imgHelp: TImage
     Top = 109
+    ExplicitTop = 109
   end
   object Label1: TLabel [2]
     Left = 12
@@ -81,12 +84,16 @@ inherited frmReg: TfrmReg
     Top = 108
     Caption = #30830#23450
     TabOrder = 2
+    ExplicitLeft = 123
+    ExplicitTop = 108
   end
   inherited btnCancel: TBitBtn
     Left = 204
     Top = 108
     Caption = #21462#28040
     TabOrder = 3
+    ExplicitLeft = 204
+    ExplicitTop = 108
   end
   object edtMail: TEdit
     Left = 62

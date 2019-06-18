@@ -2,8 +2,8 @@ object frmMain: TfrmMain
   Left = 201
   Top = 112
   ActiveControl = dgStaff
-  Caption = #31179#39118#20154#20107#26723#26696#31649#29702#31995#32479
-  ClientHeight = 554
+  Caption = #26970#20154#20154#20107#26723#26696#31649#29702#31995#32479
+  ClientHeight = 574
   ClientWidth = 859
   Color = clBtnFace
   Font.Charset = ANSI_CHARSET
@@ -25,7 +25,7 @@ object frmMain: TfrmMain
   TextHeight = 12
   object sbPer: TStatusBar
     Left = 0
-    Top = 535
+    Top = 555
     Width = 859
     Height = 19
     Panels = <
@@ -42,8 +42,7 @@ object frmMain: TfrmMain
         Alignment = taRightJustify
         Width = 250
       end>
-    ExplicitTop = 519
-    ExplicitWidth = 867
+    ExplicitTop = 535
   end
   object tbPer: TRzToolbar
     Left = 0
@@ -62,7 +61,6 @@ object frmMain: TfrmMain
     BorderSides = []
     BorderWidth = 0
     TabOrder = 0
-    ExplicitWidth = 867
     ToolbarControls = (
       btnDept
       btnSort
@@ -174,26 +172,25 @@ object frmMain: TfrmMain
     Left = 0
     Top = 27
     Width = 859
-    Height = 508
+    Height = 528
     ActivePage = tsData
     Align = alClient
     UseColoredTabs = True
     ShowCardFrame = False
     ShowShadow = False
     TabOrder = 2
-    ExplicitWidth = 867
-    ExplicitHeight = 492
+    ExplicitHeight = 508
     FixedDimension = 0
     object tsData: TRzTabSheet
       TabVisible = False
       Caption = 'tsData'
       ExplicitWidth = 0
-      ExplicitHeight = 0
+      ExplicitHeight = 508
       object spPer: TSplitter
         Left = 155
         Top = 22
         Width = 2
-        Height = 486
+        Height = 506
         OnCanResize = spPerCanResize
         ExplicitHeight = 470
       end
@@ -204,7 +201,6 @@ object frmMain: TfrmMain
         Height = 22
         Align = alTop
         TabOrder = 0
-        ExplicitWidth = 867
         object lblSrh: TLabel
           Left = 156
           Top = 5
@@ -261,16 +257,16 @@ object frmMain: TfrmMain
         Left = 0
         Top = 22
         Width = 155
-        Height = 486
+        Height = 506
         Align = alLeft
         BevelOuter = bvNone
         TabOrder = 1
-        ExplicitHeight = 470
+        ExplicitHeight = 486
         object tvPer: TTreeView
           Left = 0
           Top = 0
           Width = 155
-          Height = 370
+          Height = 390
           Align = alClient
           HideSelection = False
           HotTrack = True
@@ -299,17 +295,17 @@ object frmMain: TfrmMain
             FFFFFFFFFFFFFF0000000000000000043F65BB6C62978C8C1D00000001000000
             01000000FFFFFFFFFFFFFFFF000000000000000002665B86531D000000010000
             0001000000FFFFFFFFFFFFFFFF000000000000000002134E1A4E}
-          ExplicitHeight = 354
+          ExplicitHeight = 370
         end
         object pnlPhoto: TPanel
           Left = 0
-          Top = 370
+          Top = 390
           Width = 155
           Height = 116
           Align = alBottom
           BevelOuter = bvSpace
           TabOrder = 1
-          ExplicitTop = 354
+          ExplicitTop = 370
           object imgPhoto: TImage
             Left = 1
             Top = 1
@@ -488,16 +484,15 @@ object frmMain: TfrmMain
         Left = 157
         Top = 22
         Width = 702
-        Height = 486
+        Height = 506
         Align = alClient
         BevelOuter = bvNone
         TabOrder = 2
-        ExplicitWidth = 710
-        ExplicitHeight = 470
+        ExplicitHeight = 486
         object pnlTop: TPanel
           Left = 0
           Top = 0
-          Width = 710
+          Width = 702
           Height = 22
           Align = alTop
           TabOrder = 0
@@ -563,8 +558,8 @@ object frmMain: TfrmMain
         object chtStaff: TChart
           Left = 0
           Top = 22
-          Width = 710
-          Height = 448
+          Width = 702
+          Height = 484
           AllowPanning = pmNone
           BackWall.Brush.Color = clWhite
           BackWall.Brush.Style = bsClear
@@ -585,6 +580,7 @@ object frmMain: TfrmMain
           Align = alClient
           Color = clWindow
           TabOrder = 1
+          ExplicitHeight = 464
           object Series1: TPieSeries
             Marks.Callout.Brush.Color = clBlack
             Marks.Style = smsLabelPercent
@@ -602,7 +598,7 @@ object frmMain: TfrmMain
         Left = 157
         Top = 22
         Width = 702
-        Height = 486
+        Height = 506
         Align = alClient
         ColumnDefValues.Title.TitleButton = True
         DataSource = dmPer.dsStaff
@@ -943,14 +939,16 @@ object frmMain: TfrmMain
       TabVisible = False
       Caption = 'tsImage'
       ExplicitWidth = 0
-      ExplicitHeight = 0
+      ExplicitHeight = 508
       object imgMain: TImage
         Left = 0
         Top = 0
-        Width = 784
-        Height = 492
+        Width = 859
+        Height = 528
         Align = alClient
         OnDblClick = imgMainDblClick
+        ExplicitWidth = 784
+        ExplicitHeight = 492
       end
     end
   end
@@ -1221,6 +1219,7 @@ object frmMain: TfrmMain
       end
       object miBuy: TMenuItem
         Action = actBuy
+        Visible = False
       end
       object miReg: TMenuItem
         Action = actReg
@@ -1240,7 +1239,7 @@ object frmMain: TfrmMain
     Left = 32
     Top = 352
     Bitmap = {
-      494C010127002C00080010001000FFFFFFFFFF10FFFFFFFFFFFFFFFF424D3600
+      494C010127002C00100010001000FFFFFFFFFF10FFFFFFFFFFFFFFFF424D3600
       000000000000360000002800000040000000A0000000010020000000000000A0
       0000000000000000000000000000000000000000000000000000000000000000
       0000000000000000000000000000000000000000000000000000000000000000

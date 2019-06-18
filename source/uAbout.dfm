@@ -53,9 +53,9 @@ object frmAbout: TfrmAbout
     object lblRight: TLabel
       Left = 8
       Top = 72
-      Width = 216
+      Width = 144
       Height = 12
-      Caption = #29256#26435#25152#26377'(c) 2007-2008 '#31179#39118#36719#20214#24037#20316#23460
+      Caption = #29256#26435#25152#26377'(c) 2019 CR-Soft'
       IsControl = True
     end
     object lblInfo: TLabel
@@ -81,6 +81,7 @@ object frmAbout: TfrmAbout
       Height = 1
       HighlightLocation = hlUpperLeft
       ShowGradient = True
+      Color = clBtnFace
       ParentColor = False
     end
     object rsBottom: TRzSeparator
@@ -90,6 +91,7 @@ object frmAbout: TfrmAbout
       Height = 1
       HighlightLocation = hlUpperLeft
       ShowGradient = True
+      Color = clBtnFace
       ParentColor = False
     end
   end

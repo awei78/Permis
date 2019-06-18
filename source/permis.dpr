@@ -69,7 +69,7 @@ var
 
 begin
   //只运行一个实例
-  hApp := FindWindow('TApplication', '秋风人事档案管理系统');
+  hApp := FindWindow('TApplication', 'CR人事档案管理系统');
   if hApp <> 0 then
   begin
     //找登录窗口
@@ -92,7 +92,7 @@ begin
     Exit;
   end;
 
-  Application.Title := '秋风人事档案管理系统';
+  Application.Title := 'CR人事档案管理系统';
   Application.Initialize;
   Application.MainFormOnTaskbar := True;
   Application.CreateForm(TdmPer, dmPer);

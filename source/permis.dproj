@@ -1,0 +1,203 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{c7e814db-3dd3-49a7-bb8c-dfc72a1ef2d2}</ProjectGuid>
+    <MainSource>permis.dpr</MainSource>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <DCC_DCCCompiler>DCC32</DCC_DCCCompiler>
+    <DCC_DependencyCheckOutputName>..\bin\permis.exe</DCC_DependencyCheckOutputName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <Version>7.0</Version>
+    <DCC_DebugInformation>False</DCC_DebugInformation>
+    <DCC_LocalDebugSymbols>False</DCC_LocalDebugSymbols>
+    <DCC_SymbolReferenceInfo>0</DCC_SymbolReferenceInfo>
+    <DCC_ExeOutput>..\bin</DCC_ExeOutput>
+    <DCC_DcuOutput>..\temp</DCC_DcuOutput>
+    <DCC_ObjOutput>..\temp</DCC_ObjOutput>
+    <DCC_HppOutput>..\temp</DCC_HppOutput>
+    <DCC_UnitSearchPath>..\components\Ehlib45;..\components\FastReport253;..\components\GIFImage22;..\components\PNGimage150;..\components\VclZip310</DCC_UnitSearchPath>
+    <DCC_ResourcePath>..\components\Ehlib45;..\components\FastReport253;..\components\GIFImage22;..\components\PNGimage150;..\components\VclZip310</DCC_ResourcePath>
+    <DCC_ObjPath>..\components\Ehlib45;..\components\FastReport253;..\components\GIFImage22;..\components\PNGimage150;..\components\VclZip310</DCC_ObjPath>
+    <DCC_IncludePath>..\components\Ehlib45;..\components\FastReport253;..\components\GIFImage22;..\components\PNGimage150;..\components\VclZip310</DCC_IncludePath>
+    <DCC_Define>RELEASE</DCC_Define>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <Version>7.0</Version>
+    <DCC_ExeOutput>..\bin</DCC_ExeOutput>
+    <DCC_DcuOutput>..\temp</DCC_DcuOutput>
+    <DCC_ObjOutput>..\temp</DCC_ObjOutput>
+    <DCC_HppOutput>..\temp</DCC_HppOutput>
+    <DCC_UnitSearchPath>..\components\Ehlib45;..\components\FastReport253;..\components\GIFImage22;..\components\PNGimage150;..\components\VclZip310</DCC_UnitSearchPath>
+    <DCC_ResourcePath>..\components\Ehlib45;..\components\FastReport253;..\components\GIFImage22;..\components\PNGimage150;..\components\VclZip310</DCC_ResourcePath>
+    <DCC_ObjPath>..\components\Ehlib45;..\components\FastReport253;..\components\GIFImage22;..\components\PNGimage150;..\components\VclZip310</DCC_ObjPath>
+    <DCC_IncludePath>..\components\Ehlib45;..\components\FastReport253;..\components\GIFImage22;..\components\PNGimage150;..\components\VclZip310</DCC_IncludePath>
+    <DCC_Define>DEBUG</DCC_Define>
+  </PropertyGroup>
+  <ProjectExtensions>
+    <Borland.Personality>Delphi.Personality</Borland.Personality>
+    <Borland.ProjectType>VCLApplication</Borland.ProjectType>
+    <BorlandProject>
+<BorlandProject><Delphi.Personality><Parameters><Parameters Name="UseLauncher">False</Parameters><Parameters Name="LoadAllSymbols">True</Parameters><Parameters Name="LoadUnspecifiedSymbols">False</Parameters></Parameters><VersionInfo><VersionInfo Name="IncludeVerInfo">True</VersionInfo><VersionInfo Name="AutoIncBuild">False</VersionInfo><VersionInfo Name="MajorVer">2</VersionInfo><VersionInfo Name="MinorVer">2</VersionInfo><VersionInfo Name="Release">5</VersionInfo><VersionInfo Name="Build">2</VersionInfo><VersionInfo Name="Debug">False</VersionInfo><VersionInfo Name="PreRelease">False</VersionInfo><VersionInfo Name="Special">False</VersionInfo><VersionInfo Name="Private">False</VersionInfo><VersionInfo Name="DLL">False</VersionInfo><VersionInfo Name="Locale">2052</VersionInfo><VersionInfo Name="CodePage">936</VersionInfo></VersionInfo><VersionInfoKeys><VersionInfoKeys Name="CompanyName">楚人软件</VersionInfoKeys><VersionInfoKeys Name="FileDescription">作者：刘景威</VersionInfoKeys><VersionInfoKeys Name="FileVersion">2.2.5.2</VersionInfoKeys><VersionInfoKeys Name="InternalName">permis.exe</VersionInfoKeys><VersionInfoKeys Name="LegalCopyright">版权所有：2003-2011</VersionInfoKeys><VersionInfoKeys Name="LegalTrademarks">楚人软件</VersionInfoKeys><VersionInfoKeys Name="OriginalFilename">permis.exe</VersionInfoKeys><VersionInfoKeys Name="ProductName">楚人人事档案管理系统</VersionInfoKeys><VersionInfoKeys Name="ProductVersion">2.2.5</VersionInfoKeys><VersionInfoKeys Name="Comments">楚人软件工作室出品</VersionInfoKeys></VersionInfoKeys><Source><Source Name="MainSource">permis.dpr</Source></Source></Delphi.Personality></BorlandProject></BorlandProject>
+  </ProjectExtensions>
+  <Import Project="$(MSBuildBinPath)\Borland.Delphi.Targets" />
+  <ItemGroup>
+    <DelphiCompile Include="permis.dpr">
+      <MainSource>MainSource</MainSource>
+    </DelphiCompile>
+    <DCCReference Include="CtrlsEx.pas" />
+    <DCCReference Include="DataExp.pas" />
+    <DCCReference Include="Menus.pas" />
+    <DCCReference Include="uAbout.pas">
+      <Form>frmAbout</Form>
+    </DCCReference>
+    <DCCReference Include="uAddAdmin.pas">
+      <Form>frmAddAdmin</Form>
+    </DCCReference>
+    <DCCReference Include="uAddr.pas">
+      <Form>frmAddr</Form>
+    </DCCReference>
+    <DCCReference Include="uAdmin.pas">
+      <Form>frmAdmin</Form>
+    </DCCReference>
+    <DCCReference Include="uAP.pas">
+      <Form>frmAP</Form>
+    </DCCReference>
+    <DCCReference Include="uAPDlg.pas">
+      <Form>frmAPDlg</Form>
+    </DCCReference>
+    <DCCReference Include="uApp.pas" />
+    <DCCReference Include="uAwake.pas">
+      <Form>frmAwake</Form>
+    </DCCReference>
+    <DCCReference Include="uBack.pas">
+      <Form>frmBack</Form>
+    </DCCReference>
+    <DCCReference Include="uBase.pas">
+      <Form>frmBase</Form>
+    </DCCReference>
+    <DCCReference Include="uBatchEdit.pas">
+      <Form>frmBatchEdit</Form>
+    </DCCReference>
+    <DCCReference Include="uCalendar.pas">
+      <Form>frmCalendar</Form>
+    </DCCReference>
+    <DCCReference Include="uChgPwd.pas">
+      <Form>frmChgPwd</Form>
+    </DCCReference>
+    <DCCReference Include="uCode.pas">
+      <Form>frmCode</Form>
+    </DCCReference>
+    <DCCReference Include="uCompany.pas">
+      <Form>frmCompany</Form>
+    </DCCReference>
+    <DCCReference Include="uContDlg.pas">
+      <Form>frmContDlg</Form>
+    </DCCReference>
+    <DCCReference Include="uContract.pas">
+      <Form>frmContract</Form>
+    </DCCReference>
+    <DCCReference Include="uData.pas">
+      <Form>dmPer</Form>
+    </DCCReference>
+    <DCCReference Include="uDataBack.pas">
+      <Form>frmDataBack</Form>
+    </DCCReference>
+    <DCCReference Include="uDataInit.pas">
+      <Form>frmDataInit</Form>
+    </DCCReference>
+    <DCCReference Include="uDataRestore.pas">
+      <Form>frmDataRestore</Form>
+    </DCCReference>
+    <DCCReference Include="uDept.pas">
+      <Form>frmDept</Form>
+    </DCCReference>
+    <DCCReference Include="uDiary.pas">
+      <Form>frmDiary</Form>
+    </DCCReference>
+    <DCCReference Include="uDict.pas">
+      <Form>frmDict</Form>
+    </DCCReference>
+    <DCCReference Include="uDlgBase.pas">
+      <Form>frmDlgBase</Form>
+    </DCCReference>
+    <DCCReference Include="uExport.pas">
+      <Form>frmExport</Form>
+    </DCCReference>
+    <DCCReference Include="uField.pas">
+      <Form>frmField</Form>
+    </DCCReference>
+    <DCCReference Include="uGlobal.pas" />
+    <DCCReference Include="uImport.pas">
+      <Form>frmImport</Form>
+    </DCCReference>
+    <DCCReference Include="uImportC.pas">
+      <Form>frmImportC</Form>
+    </DCCReference>
+    <DCCReference Include="uImportP.pas">
+      <Form>frmImportP</Form>
+    </DCCReference>
+    <DCCReference Include="uInqu.pas">
+      <Form>frmInqu</Form>
+    </DCCReference>
+    <DCCReference Include="uInquBase.pas">
+      <Form>frmInquBase</Form>
+    </DCCReference>
+    <DCCReference Include="uInquLeave.pas">
+      <Form>frmInquLeave</Form>
+    </DCCReference>
+    <DCCReference Include="uInquMove.pas">
+      <Form>frmInquMove</Form>
+    </DCCReference>
+    <DCCReference Include="uInquR.pas">
+      <Form>frmInquR</Form>
+    </DCCReference>
+    <DCCReference Include="uLeave.pas">
+      <Form>frmLeave</Form>
+    </DCCReference>
+    <DCCReference Include="uLeft.pas">
+      <Form>frmLeft</Form>
+    </DCCReference>
+    <DCCReference Include="uLog.pas" />
+    <DCCReference Include="uLogin.pas">
+      <Form>frmLogin</Form>
+    </DCCReference>
+    <DCCReference Include="uLogInfo.pas">
+      <Form>frmLog</Form>
+    </DCCReference>
+    <DCCReference Include="uLunar.pas" />
+    <DCCReference Include="uMain.pas">
+      <Form>frmMain</Form>
+    </DCCReference>
+    <DCCReference Include="uMove.pas">
+      <Form>frmMove</Form>
+    </DCCReference>
+    <DCCReference Include="uNeedPwd.pas">
+      <Form>frmNeedPwd</Form>
+    </DCCReference>
+    <DCCReference Include="uParamSet.pas">
+      <Form>frmParamSet</Form>
+    </DCCReference>
+    <DCCReference Include="uPrint.pas">
+      <Form>frmPrint</Form>
+    </DCCReference>
+    <DCCReference Include="uReg.pas">
+      <Form>frmReg</Form>
+    </DCCReference>
+    <DCCReference Include="uStaff.pas">
+      <Form>frmStaff</Form>
+    </DCCReference>
+    <DCCReference Include="uTrain.pas">
+      <Form>frmTrain</Form>
+    </DCCReference>
+    <DCCReference Include="uTrainDlg.pas">
+      <Form>frmTrainDlg</Form>
+    </DCCReference>
+    <DCCReference Include="uVideo.pas">
+      <Form>frmVideo</Form>
+    </DCCReference>
+    <DCCReference Include="uView.pas">
+      <Form>frmView</Form>
+    </DCCReference>
+  </ItemGroup>
+</Project>

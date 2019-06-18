@@ -1,4 +1,4 @@
-// CodeGear C++Builder
+// CodeGear C++ Builder
 // Copyright (c) 1995, 2007 by CodeGear
 // All rights reserved
 

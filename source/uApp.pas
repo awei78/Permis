@@ -14,7 +14,7 @@ uses
   Windows, SysUtils, Classes, Forms, IniFiles, Registry, Graphics, DateUtils;
 
 const
-  APP_CAPTION     = '秋风人事档案管理系统';
+  APP_CAPTION     = 'CR人事档案管理系统';
   FIELD_VISIBLE   = '0111100100001000100001111000000001000000';  //40位
   INI_FILE        = 'config.ini';
   PERMIS_KEY_NAME = 'Software\APermis';

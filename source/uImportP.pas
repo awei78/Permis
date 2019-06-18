@@ -99,7 +99,7 @@ begin
   end;
   if bePath.Text = App.Path + 'photos\' then
   begin
-    MessageBox(Handle, PAnsiChar('此为秋风人事档案系统的照片目录，您不能从这里导入员工照片。'), '提示', MB_OK + MB_ICONINFORMATION);
+    MessageBox(Handle, PAnsiChar('此为CR人事档案系统的照片目录，您不能从这里导入员工照片。'), '提示', MB_OK + MB_ICONINFORMATION);
     Exit;
   end;
 

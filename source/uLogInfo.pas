@@ -69,7 +69,7 @@ var
   sFileName: string;
 begin
   sd := TSaveDialog.Create(Self);
-  sd.FileName := '秋风人事档案管理系统操作日志_ ' + FormatDateTime('yyyymmdd', Date()) + '.txt';
+  sd.FileName := 'CR人事档案管理系统操作日志_ ' + FormatDateTime('yyyymmdd', Date()) + '.txt';
   sd.Options := sd.Options + [ofOverwritePrompt];
   sd.Filter := '文本文档 (*.txt)|*.txt';
   try

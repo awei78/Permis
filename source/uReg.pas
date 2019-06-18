@@ -77,8 +77,8 @@ begin
     frmMain.Caption := StringReplace(frmMain.Caption, '(未注册版)', '', []);
     Result := inherited CheckData;
 
-    MessageBox(Handle, '注册成功，感谢您使用秋风软件', '提示', MB_OK + MB_ICONINFORMATION);
-    ShellExecute(Handle, 'open', PAnsiChar('http://www.awindsoft.net/reg.asp?act=reg&pid=1&mail='
+    MessageBox(Handle, '注册成功，感谢您使用CR软件', '提示', MB_OK + MB_ICONINFORMATION);
+    ShellExecute(Handle, 'open', PAnsiChar('http://www.cr-soft.net/reg.asp?act=reg&pid=1&mail='
       + edtMail.Text + '&code=' + edtCode.Text + '&ver=' + App.Version), nil, nil, SW_NORMAL);
 
     Log.Write(App.UserID + '注册了' + App.Caption + ' v' + App.Version);

@@ -17,8 +17,8 @@ uses
   uData, uApp, uLog;
 
 const
-  APP_CAPTION      = '秋风人事档案管理系统';
-  AW_HOMEPAGE      = 'http://www.awindsoft.net';
+  APP_CAPTION      = 'CR人事档案管理系统';
+  AW_HOMEPAGE      = 'http://www.cr-soft.net';
   MAX_RECORD       = 25;
   VIEW_COLOR       = $00EFE7E7;
   HH_DISPLAY_TOPIC = $0000;
